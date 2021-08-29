@@ -1,8 +1,4 @@
-# from selenium import webdriver
-# CHROME_DRIVER = "C:\\development\\chromedriver.exe"
-# driver = webdriver.Chrome(executable_path=CHROME_DRIVER)
-# driver.get("https://www.amazon.com")
-# driver.
+
 import datetime
 import speech_recognition as sr
 import pyttsx3
@@ -118,7 +114,7 @@ if _name_ == '_main_':
             try:
                 speak("what should i say?")
                 content = takeCommand()
-                to = "ishita.kanpur29@gmail.com"
+                to = Your email id
                 sendmail(to,content)
                 speak("Email sent successfully")
             except Exception as e:
